@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidade</title>
+</head>
+<body>
+    <h1>Teste de nacionalidade</h1>
+Vivendo em  <input type="text" name="txtpais" id="txtpais">
+<input type="button" value="Nacionalidade" id="btnverificar" onclick="verificar()">
+
+<div id="res">
+
+</div>
+<script>
+   // let  btnverificar = window.document.querySelector('input#btnverificar')
+     // btnverificar.addEventListener('click', verificar );
+
+    function verificar(){
+        let txtpais = window.document.querySelector('input#txtpais')
+        let res = window.document.querySelector('div#res')
+        let pais = String(txtpais.value).toLowerCase()
+        res.innerHTML = `Seu país é: ${pais}! `
+        if (pais != "brasil"){
+            res.innerHTML += 'Você é <strong>Estrangeiro(a)</strong>!'
+        } else {
+            res.innerHTML += 'Você é <strong>Brasileiro(a)</strong>!'
+        }
+    }
+
+    res.innerHTML = " "
+
+
+</script>
+</body>
+</html>
