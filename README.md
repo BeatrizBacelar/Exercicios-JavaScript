@@ -16,3 +16,7 @@ Essa aplicação utiliza o horário do computador e exibe a cor de fundo e image
 
 ![hora](https://user-images.githubusercontent.com/69614234/122143550-0d2d0500-ce28-11eb-8f87-8dc031d09f93.png)
 
+## Faixa etária
+Nessa aplicação é possível inserir o ano de nascimento e o sexo e o retorno será o "gênero informado" com a idade e uma foto correspondente a faixa etária da pessoa.
+
+![idade](https://user-images.githubusercontent.com/69614234/122151809-91868480-ce36-11eb-9a43-1c6ea560a61d.png)
